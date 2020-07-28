@@ -4,6 +4,11 @@
 def output_all_items(items):
     pass  # TODO: replace this line with your code
 
+    for item in range(len(items)):
+        print(items[item])
+
+output_all_items([1, 'hello', True])        
+
 
 def get_all_evens(nums):
     pass  # TODO: replace this line with your code
